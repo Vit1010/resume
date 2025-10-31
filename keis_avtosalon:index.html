@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кейс: Контекстная реклама для автосалона</title>
+    <!-- Подключение Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Используем шрифт Inter, как указано в Tailwind-конфигурации по умолчанию */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Небольшая кастомизация для вложенных списков */
+        ul ul {
+            list-style-type: circle;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans leading-relaxed">
+
+    <!-- Основной контейнер -->
+    <main class="max-w-5xl mx-auto p-4 sm:p-8 my-10">
+        <div class="bg-white p-6 sm:p-10 rounded-xl shadow-2xl">
+            
+            <!-- 1. Заголовок и Ключевая информация -->
+            <header class="border-b border-gray-200 pb-6 mb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Кейс: Настройка контекстной рекламы для автосалона
+                </h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                        <h2 class="text-lg font-semibold text-blue-800 mb-2">Цель</h2>
+                        <p class="text-gray-700">Привлечение целевых лидов на покупку автомобилей и увеличение продаж.</p>
+                    </div>
+                    <div class="bg-green-50 p-6 rounded-lg border border-green-100">
+                        <h2 class="text-lg font-semibold text-green-800 mb-2">Период работы</h2>
+                        <p class="text-gray-700">8 месяцев</p>
+                    </div>
+                </div>
+            </header>
+
+            <!-- 2. Разделы Кейса -->
+            <div class="space-y-12">
+
+                <!-- Секция 1: Анализ и стратегия -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-6 border-l-4 border-blue-600 pl-4">
+                        1. Анализ и стратегия
+                    </h2>
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-3">Анализ текущей ситуации</h3>
+                            <p class="text-gray-600 mb-4">Проведен анализ текущей рекламной кампании автосалона (если была). Выявлены основные проблемы:</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>Низкая эффективность рекламы малоизвестных/узких брендов.</li>
+                                <li>Высокая стоимость лида по малоизвестным/узким брендам (до 30-40 тыс. руб.).</li>
+                                <li>Недостаточная узнаваемость дилера и низкая лояльность покупателей.</li>
+                                <li>Проигрыш прямому конкуренту в продажах и месте в поисковой выдаче.</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-3">Определение целевой аудитории</h3>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>Выделены сегменты целевой аудитории на основе интересов, уровня дохода и возраста.</li>
+                                <li>Составлены портреты потенциальных покупателей.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-3">Формулирование целей и KPI</h3>
+                            <p class="text-gray-600 mb-4">Определены цели рекламной кампании:</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2 mb-4">
+                                <li>Снизить стоимость лида на малоизвестные/узкие бренды.</li>
+                                <li>Популяризировать малоизвестные/узкие бренды в регионе.</li>
+                                <li>Повысить узнаваемость дилера и увеличить лояльность покупателей к автосалону.</li>
+                                <li>Поднять сайт в рекламной выдаче на поиске.</li>
+                                <li>Увеличение трафика на сайт автосалона.</li>
+                            </ul>
+                            <p class="text-gray-600">Установлены ключевые показатели эффективности (KPI) для отслеживания результатов.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Секция 2: Реализация -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-6 border-l-4 border-blue-600 pl-4">
+                        2. Реализация
+                    </h2>
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-3">Настройка рекламных кампаний</h3>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>Созданы и настроены рекламные кампании в Яндекс.Директ.</li>
+                                <li>Проведена кластеризация ключевых слов и составлены релевантные объявления.</li>
+                                <li>Основная разбивка ключевых запросов производилась по названиям брендов и конкретных моделей автомобилей.</li>
+                                <li>В случае, если бренды популярные и количество запросов большое, также делалась отдельная сегментация на русскоязычное и англоязычное написание бренда и конкретной модели автомобилей этого бренда во всех возможных интерпретациях.</li>
+                                <li>В отдельную категорию, не влияющую на работу остальных рекламных групп и компаний, были выделены запросы, связанные с отдельными кузовными элементами, техническим обслуживанием и тому подобным.</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-3">Настроены параметры таргетинга:</h3>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>
+                                    Географический:
+                                    <ul class="list-inside ml-6 mt-2 space-y-1 text-gray-500">
+                                        <li>Основной регион: регион расположения автодилера.</li>
+                                        <li>Дополнительные регионы: иногда подключались по запросу дилеров-партнеров или по договоренности с дилерами из соседних регионов.</li>
+                                        <li>Москва и Московская область: для рекламы дорогих и премиальных брендов.</li>
+                                        <li>Соседние регионы с похожей покупательной способностью: для рекламы брендов среднего ценового сегмента.</li>
+                                    </ul>
+                                </li>
+                                <li class="mt-2">Обеспечено взаимодействие с техническим отделом для корректной работы системы сквозной аналитики, чтобы большая часть заявок из Яндекс.Директ фиксировалась отделом продаж именно этим источником для формирования реальной статистики и расчета окупаемости вложений в рекламу.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Секция 3: Хронология работы и результаты -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-6 border-l-4 border-blue-600 pl-4">
+                        3. Хронология работы и результаты
+                    </h2>
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-3">Запрос от клиента:</h3>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>Снизить стоимость лида на малоизвестные/узкие бренды.</li>
+                                <li>Популяризировать эти бренды в рамках региона.</li>
+                                <li>Повысить узнаваемость дилера и увеличить лояльность покупателей к автосалону.</li>
+                                <li>Поднять сайт в рекламной выдаче на поиске.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-3">Ситуация до:</h3>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                               <li>По малоизвестным или не самым продаваемым брендам цена за лида могла достигать 30-40 тыс. руб. Аналитика по основной отслеживаемой цели — звонок с рекламного захода на сайт.</li>
+                               <li>Диллер стабильно проигрывает по продажам и месту в поисковой выдаче своему прямому конкуренту.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-3">Начало работы:</h3>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                               <li>Начали с рекламы 2 китайских брендов — Kaiyi и Baik. Довольно сложные проекты, так как обладают довольно плохой репутацией в регионе. Бюджет был 100 тыс. руб. на проект на 2 гео.</li>
+                               <li>За первый месяц было продано 6 автомобилей. До моего прихода в компанию уровень продаж по этим брендам колебался от 2 до 4 автомобилей в месяц.</li>
+                               <li>На пике дошли до уровня продаж 12-15 авто в месяц, но после продажи уровень продаж снизился и пришел к 4-5 автомобилям в месяц (сказались негативные отзывы и частые поломки автомобилей этих брендов).</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-3">Текущая ситуация:</h3>
+                            <p class="text-gray-600">Сейчас веду почти все автомобильные бренды дилера. По некоторым из них цена лида выросла относительно времени до моего прихода в компанию, но конверсия значительно выросла, и стоимость сделки сейчас в несколько раз ниже, чем ранее.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Секция 4: Конкретные примеры -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-6 border-l-4 border-blue-600 pl-4">
+                        4. Конкретные примеры
+                    </h2>
+                    <div class="space-y-10">
+
+                        <!-- Пример Haval -->
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-4">Пример улучшения рекламных показателей на бренде Haval:</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mb-6">
+                                <div class="bg-red-50 border border-red-200 p-4 rounded-lg">
+                                    <p class="font-semibold text-red-700">Стоимость заявки “до”:</p>
+                                    <p class="text-2xl font-bold text-red-900">2.251,23 руб. <span class="text-sm font-normal">(с учетом НДС 20%)</span></p>
+                                    <img src="https://i.imgur.com/9PD2HqP.png" alt="[Изображение статистики Haval 'до']" class="w-full rounded-lg shadow-md mt-4 border"
+                                         onerror="this.src='https://placehold.co/600x400/ef4444/ffffff?text=Ошибка+загрузки+Haval+До'">
+                                </div>
+                                <div class="bg-green-50 border border-green-200 p-4 rounded-lg">
+                                    <p class="font-semibold text-green-700">Стоимость заявки “после”:</p>
+                                    <p class="text-2xl font-bold text-green-900">1.639,34 руб. <span class="text-sm font-normal">(с учетом НДС 20%)</span></p>
+                                    <img src="https://i.imgur.com/xvPBDs4.png" alt="[Изображение статистики Haval 'после']" class="w-full rounded-lg shadow-md mt-4 border"
+                                         onerror="this.src='https://placehold.co/600x400/22c55e/ffffff?text=Ошибка+загрузки+Haval+После'">
+                                </div>
+                            </div>
+                            <div class="bg-blue-50 p-6 rounded-lg text-center border border-blue-100">
+                                <p class="text-xl font-semibold text-blue-800">Результат: Снижение стоимости лида и оптимизация бюджета на 27,2%.</p>
+                            </div>
+                        </div>
+
+                        <!-- Пример Lada -->
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-4">Показатели работы контекстной рекламы по бренду Lada:</h3>
+                            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                                <ul class="list-disc list-inside text-gray-700 space-y-2 text-lg">
+                                    <li>Бюджет: <span class="font-semibold">1.404.996 руб</span> (с учетом НДС 20%)</li>
+                                    <li>Количество заявок: <span class="font-semibold">801 шт</span></li>
+                                    <li>Стоимость заявки: <span class="font-semibold">1.754 руб</span> (с учетом НДС 20%)</li>
+                                </ul>
+                                <img src="https://i.imgur.com/DRgCeyK.png" alt="[Изображение статистики Lada]" class="w-full rounded-lg shadow-md mt-4 border"
+                                     onerror="this.src='https://placehold.co/800x300/6b7280/ffffff?text=Ошибка+загрузки+Lada'">
+                            </div>
+                        </div>
+
+                        <!-- Результаты за 2 месяца -->
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-4">Результаты за последние 2 месяца работы:</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <!-- Февраль -->
+                                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-4">Сквозная аналитика по продажам за февраль 2025 г.</h4>
+                                    <ul class="list-disc list-inside text-gray-600 space-y-2 mb-4">
+                                        <li>Рекламный бюджет - 163.013 руб.</li>
+                                        <li>Всего лидов - 76 шт.</li>
+                                        <li>COW - 42,11%</li>
+                                        <li>Кол-во продаж - 32 шт.</li>
+                                        <li>Средний чек - 2,5-3,5 млн. руб.*</li>
+                                        <li>Приблизительно выручка - 96 млн. руб.*</li>
+                                    </ul>
+                                    <img src="https://i.imgur.com/T9bgCMh.png" alt="[Изображение статистики за Февраль]" class="w-full rounded-lg shadow-md mt-4 border"
+                                         onerror="this.src='https://placehold.co/600x400/6b7280/ffffff?text=Ошибка+загрузки+Февраль'">
+                                </div>
+                                <!-- Март -->
+                                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-4">Сквозная аналитика по продажам за март 2025 г.</h4>
+                                    <ul class="list-disc list-inside text-gray-600 space-y-2 mb-4">
+                                        <li>Рекламный бюджет - 201.640 руб.</li>
+                                        <li>Всего лидов - 106 шт.</li>
+                                        <li>COW - 44,34%</li>
+                                        <li>Кол-во продаж - 47 шт.</li>
+                                        <li>Средний чек - 2,5-3,5 млн. руб.*</li>
+                                        <li>Приблизительно выручка - 141 млн. руб.*</li>
+                                    </ul>
+                                    <img src="https://i.imgur.com/oddUVlR.png" alt="[Изображение статистики за Март]" class="w-full rounded-lg shadow-md mt-4 border"
+                                         onerror="this.src='https://placehold.co/600x400/6b7280/ffffff?text=Ошибка+загрузки+Март'">
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-500 italic mt-4">*Сумма продаж и средний чек в сквозной аналитике отображается некорректно, технический сбой, который тех.отдел не может исправить около года</p>
+                        </div>
+
+                        <!-- Средние показатели -->
+                        <div>
+                             <h3 class="text-xl font-semibold text-gray-700 mb-4">Средние показатели стоимости заявки по брендам:</h3>
+                            <p class="text-gray-600 mb-4">Средние показатели по стоимости заявки в разбивке по отдельным брендам (в рамках региона Центральная Россия):</p>
+                            <!-- Таблица для данных -->
+                            <div class="overflow-x-auto rounded-lg border border-gray-200">
+                                <table class="min-w-full divide-y divide-gray-200">
+                                    <thead class="bg-gray-50">
+                                        <tr>
+                                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Бренд</th>
+                                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Стоимость заявки (руб.)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="bg-white divide-y divide-gray-200">
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Kaiyi</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">7.000-8.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Baik</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">8.000-10.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Haval</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Lada</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2.000-6.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Газ</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2.000-4.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Уаз</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">5.000-6.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Voyah</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10.000-15.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Seres</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">3.000-6.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Nissan</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Skoda</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">3.000-4.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Audi</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">4.000-8.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Volkswagen</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">4.000-8.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Faw</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">7.000-10.000</td></tr>
+                                        <tr><td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Foton</td><td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10.000</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Закономерности -->
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-700 mb-3">Общие закономерности ценообразования заявки по различным брендам:</h3>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>Если бренд известный и продаваемый, то это до 3.000 руб.</li>
+                                <li>Если бренд на слуху, но редко продается по различным причинам (проигрывает в привлекательности конкурентам), то до 6.000 руб.</li>
+                                <li>Если бренд слабо конкурентоспособен и малоизвестен, то до 15.000 руб.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Секция 5: Выводы -->
+                <section>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-6 border-l-4 border-blue-600 pl-4">
+                        Выводы
+                    </h2>
+                    <p class="text-gray-600">Основные результаты работы демонстрируют значительное снижение стоимости заявок, в частности, снижение стоимости лида на 27,2% для бренда Haval. Средняя конверсия в сделку составила <span class="font-semibold text-blue-700">[укажите среднюю конверсию, если есть]</span>, а общее количество сделок за два месяца составило 79 (32 в феврале и 47 в марте). Сумма сделок варьируется от 2,5 до 3,5 млн руб. за одну сделку. Описанные результаты демонстрируют мою способность эффективно управлять рекламными кампаниями и достигать поставленных целей по снижению стоимости лида и увеличению продаж.</p>
+                </section>
+
+                <!-- Секция 6: Заключение -->
+                <section class="border-t border-gray-200 pt-8 mt-10">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-6 border-l-4 border-blue-600 pl-4">
+                        Заключение
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed mb-6">Уверен, мой опыт и навыки позволят мне внести значительный вклад в развитие вашего автосалона. Буду рад обсудить детали моего опыта и экспертизы на собеседовании.</p>
+                    <!-- Пример кнопки, если это необходимо -->
+                    <a href="#" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition duration-300">
+                        Связаться со мной
+                    </a>
+                </section>
+
+            </div>
+        </div> <!-- end of bg-white card -->
+    </main>
+
+</body>
+</html>
